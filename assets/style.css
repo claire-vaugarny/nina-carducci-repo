@@ -133,10 +133,10 @@ body {
 } */
 
 /* Change la couleur des boutons de contrôle du carousel */
-.carousel-control-prev-icon,
+.carousel-control-prev,
 .carousel-control-next-icon {
-	background-color: transparent;
-    color:  aqua !important;
+	background-color: aqua;
+    /* color:  aqua; */
 	
 }
 
