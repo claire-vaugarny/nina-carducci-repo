@@ -111,36 +111,15 @@ body {
 .nav-pills .nav-link {
 	color: #000
 }
-/*  */
-/* .carousel-control-prev-icon{ */
-/* .carousel-indicators{
-	background-color: aqua;
-	color: aqua;
-	z-index: 100;
-} */
-.carousel-indicators button[type=button]{
-	/* background-color: rgb(248, 27, 219); */
-	background-color: aqua;
-	/* color: rgb(248, 27, 219); */
-}
-/* #carouselExampleIndicators button[type=button] span{
-	/* background-color: #BEB45A; */
-	/* background-color: aqua;
-	color: aqua;
-} */
-/* .visually-hidden{
-	background-color: #BEB45A;
-} */
+/*  changements pour les problèmes de contraste */
+.carousel-control-prev {
+	background: linear-gradient(0.25turn, rgba(0,0,0,0.7), rgba(0,0,0,0.7), transparent)
+	}
+	.carousel-control-next {
+	background: linear-gradient(0.25turn, transparent, rgba(0,0,0,0.7), rgba(0,0,0,0.7))
+	 
+	}
 
-/* Change la couleur des boutons de contrôle du carousel */
-.carousel-control-prev,
-.carousel-control-next-icon {
-	background-color: aqua;
-    /* color:  aqua; */
-	
-}
-
-/*  */
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
