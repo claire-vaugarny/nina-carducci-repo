@@ -113,15 +113,18 @@ body {
 }
 
 /******  changements pour les problèmes de contraste *****/
-.nav-pills .nav-link.active,
+/* .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: #000;
 	background-color: #BEB45A;
 	border-radius: 0;
+} */
+.nav-link.active-tag{
+	background-color: #BEB45A !important;
+	border-radius: 0 !important;
 }
-
 .nav-pills .nav-link {
-	color: #000
+	color: #000 !important;
 }
 
 
