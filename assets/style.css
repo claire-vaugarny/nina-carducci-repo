@@ -112,6 +112,7 @@ body {
 	justify-content: center;
 }
 
+/******  changements pour les problèmes de contraste *****/
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: #000;
@@ -123,7 +124,7 @@ body {
 	color: #000
 }
 
-/******  changements pour les problèmes de contraste *****/
+
 .carousel-control-prev {
 	background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), transparent)
 }
@@ -132,6 +133,7 @@ body {
 	background: linear-gradient(0.25turn, transparent, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))
 }
 
+/*******  *********/
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
